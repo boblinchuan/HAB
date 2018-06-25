@@ -1,0 +1,54 @@
+body{
+	font-family: Helvetica, Arial, san-serif;
+	background-color: #DDDDCC
+}
+
+#container {
+    box-shadow: 50px 30px 50px #000;/*offsetLR offsetUD width color*/
+    border-radius:10px;
+    color: blue;
+    width: 800px;
+    margin: 0 auto; 
+    background-color:#EEEEEE;
+    overflow: hidden;
+    margin-top: 150px;
+}
+
+h1{
+	margintop:0px;
+}
+
+a{
+	color: #ffddff;
+}
+
+a:hover{
+/*this only happens when we are hovering*/
+	color:#111111;
+}
+
+a:active{
+	color:#550000
+}
+
+#left-panel ul { /*looks for ul in left-panel*/
+	list-style: none;
+	line-height:1.5em; /*em is line height. relative multiple*/
+}
+
+#right-panel{
+	padding: 20px;
+	width: 300px;
+	float: left;
+}
+
+#left-panel{
+	width:160px;
+	float:left;
+	padding:20px;
+}
+
+img{
+	width: 100%; /*100 percent of the space it has */
+	border: 3px solid white;	
+}
